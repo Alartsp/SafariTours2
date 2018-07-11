@@ -143,7 +143,7 @@ img.left_ar:active, img.right_ar:active{
 }
 
 .booking select {
-    width: 160px;
+    width: 180px;
     height: 25px;
     border: 2px double #a7d1e6;
     border-radius: 5px;
@@ -161,8 +161,20 @@ img.left_ar:active, img.right_ar:active{
     box-shadow: inset 1px 0 2px 1px #11b3dd;
 }
 
-.booking input[name=message] {
-    height: 60px;
+.booking :nth-child(5){
+    float: left;
+    width: 70px;
+    margin-left: 43px;
+
+}
+
+.booking textarea {
+    margin-top: 10px;
+    height: 50px;
+    width: 180px;
+    border: 2px double #a7d1e6;
+    border-radius: 5px;
+    color: #34abd6;
 }
 
 .booking input{
