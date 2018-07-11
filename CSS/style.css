@@ -154,8 +154,11 @@ img.left_ar:active, img.right_ar:active{
     width: 90px;
     color: #34abd6;
     background-color: #f6eb07;
-    padding: ;
     margin: 20px 0 0 204px;
+}
+
+.booking input[type=submit]:active {
+    box-shadow: inset 1px 0 2px 1px #11b3dd;
 }
 
 .booking input[name=message] {
