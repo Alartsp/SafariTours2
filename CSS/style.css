@@ -176,40 +176,64 @@ h4 {
     color: white;
 }
 
-.cont_1 {
+.headcontent {
     position: absolute;
     margin: 0 auto;
     flex: 0 0 auto;
     width: 1000px;
     overflow: hidden;
-    height: 145px;
+    height: 360px;
     left: 140px;
     bottom: 0;
     padding-top: 20px;
 }
 
-.cont_1 a{
-    text-decoration: none;
+.cont_l {
+    float: left;
+    width: 400px;
+    margin-top: 10px;
 }
 
-.cont_1 ul {
-    width: 1000px;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.cont_l h2{
+    color: white;
+    font-family: Serif;
+    font-style: italic;
+    padding-bottom: 10px;
 }
 
-.cont_1 p {
+.cont_l p{
     color: white;
 }
 
-.cont_1 img {
+.cont_l :nth-child(3) {
+    padding-top: 6px;
+    margin-left: 70px;
+}
+
+.cont_l a{
+    text-decoration: none;
+}
+
+.cont_l img {
     float: left;
-    border: 3px solid white;
-    border-radius: 3px;
+}
+
+.cont_r {
+    float: right;
+    width: 600px;
+}
+
+.r_menu li{
+    display: inline;
+}
+
+.r_menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.list{
+    display: inline-flex;
 }
 
 .minoffers {
@@ -219,7 +243,7 @@ h4 {
 }
 
 .read {
-    margin-left: 20px;
+    margin-left: 30px;
     padding: 3px 5px 3px 5px;
     background-color: #fcf004;
     border-radius: 5px;
@@ -244,12 +268,120 @@ span.read:active {
     color: #767676;
 }
 
+ul.r_menu {
+    margin-top: 50px;
+    border-bottom: 1px solid #81ffff;;
+}
+
+.r_menu li{
+    padding: 3px 10px;
+    color: #81ffff;
+    background-color: #299fca;
+    border-radius: 5px 5px 0 0;
+}
+
+.r_menu li:first-child{
+    padding: 3px 10px;
+    color: #299fca;
+    background-color: #81ffff;
+    border-radius: 5px 5px 0 0;
+}
+
+.list ul{
+    list-style-type: none;
+    color: #efefef;
+    padding-top: 10px;
+    margin: 0;
+    line-height: 25px;
+}
+
+.tours_list{
+    list-style-image: url("../images/min_ar.png");
+    padding-left: 25px;
+    padding-right: 60px;
+}
+
+.days_list {
+    padding-right: 40px;
+
+}
+
+.list a{
+    text-decoration: none;
+    color: #efefef;
+}
+
+.list a:hover{
+     color: #11b3dd;
+ }
+
+.list a:active{
+    color: #ffffff;
+}
+
 main {
     flex: 1 0 auto;
     background: #d6e6ef;
     width: 1280px;
+    height: 600px;
     margin: 0 auto;
+    background-image: url("../images/main_bg.png");
+    background-repeat: no-repeat;
 }
+
+.head_map {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    color: #4fafd3;
+}
+
+.head_map h1{
+    color: #4690b4;
+}
+
+.map h2{
+    color: #a6a3a3;
+    margin-left: 350px;
+    padding-top: 10px;
+}
+
+.mapinfo {
+    width: 250px;
+    height: 200px;
+    margin-left: 305px;
+    margin-top: 123px;
+    padding: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.mapinfo h4{
+    color: #b2afaf;
+}
+
+.mapinfo img{
+    float: left;
+    width: 67px;
+    height: 49px;
+}
+
+.mapinfo p{
+    width: 120px;
+    font-size: 12px;
+    line-height: 13px;
+    color: #a8a8a8;
+}
+
+ ul{
+    padding: 10px;
+    list-style-type: none;
+}
+
+ .m_offers {
+     margin-bottom: 20px;
+ }
 
 footer {
     height: 320px;
